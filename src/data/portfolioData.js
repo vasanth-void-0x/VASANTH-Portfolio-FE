@@ -109,6 +109,7 @@ export const projects = [
       'Built and deployed an interactive dashboard application with multi-page navigation, data filtering, live and sample data modes, visual analytics, risk scoring, searchable incident workflows, and downloadable reports.',
     github: 'https://github.com/vasanth-void-0x/Identity-Threat-Response-Automation-Platform',
     live: 'https://itrap-soc-center.streamlit.app/',
+    image: '/projects/itrap.png',
   },
   {
     id: 'dfir-copilot',
@@ -118,6 +119,7 @@ export const projects = [
     description:
       'Developed a local-first desktop application with case management, file processing, integrity verification, structured artifact analysis, searchable timelines, AI-assisted workflows, automated tests, and PDF/HTML/JSON exports.',
     github: 'https://github.com/vasanth-void-0x/DFIR-Copilot',
+    image: '/projects/dfir-copilot.png',
   },
   {
     id: 'ragexploit',
