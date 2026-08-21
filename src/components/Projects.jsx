@@ -51,14 +51,14 @@ function ProjectPreview({ project }) {
 export default function Projects() {
   return (
     <section id="projects" className="relative py-28 px-6">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-[1500px] mx-auto">
         <SectionHeading
           eyebrow="Transmission // 03"
           title="Mission Log"
           description="Software, frontend, full-stack, automation, and security applications built through hands-on development."
         />
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-5">
           {projects.map((p, i) => (
             <motion.article
               key={p.id}
@@ -71,11 +71,11 @@ export default function Projects() {
             >
               <ProjectPreview project={p} />
 
-              <div className="relative p-7">
+              <div className="relative p-5">
                 <div className="absolute -top-16 -right-16 w-40 h-40 rounded-full bg-photon/15 blur-3xl group-hover:bg-ion/20 transition-colors duration-500" />
 
                 <div className="relative flex items-start justify-between mb-3">
-                  <h3 className="font-display text-xl text-core">{p.name}</h3>
+                  <h3 className="font-display text-lg leading-snug text-core">{p.name}</h3>
                   {p.github && (
                     <a
                       href={p.github}
@@ -89,11 +89,11 @@ export default function Projects() {
                   )}
                 </div>
                 <p className="relative font-mono text-[11px] uppercase tracking-widest text-ion mb-3">{p.tagline}</p>
-                <p className="relative text-core/70 leading-relaxed mb-5">{p.description}</p>
+                <p className="relative text-sm text-core/70 leading-relaxed mb-4 line-clamp-5">{p.description}</p>
 
-                <div className="relative flex flex-wrap gap-2 mb-5">
+                <div className="relative flex flex-wrap gap-1.5 mb-4">
                   {p.tech.map((t) => (
-                    <span key={t} className="px-2.5 py-1 rounded-md border border-white/5 bg-nebula/80 text-[11px] text-core/85">
+                    <span key={t} className="px-2 py-1 rounded-md border border-white/5 bg-nebula/80 text-[10px] text-core/85">
                       {t}
                     </span>
                   ))}
