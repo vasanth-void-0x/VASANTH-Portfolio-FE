@@ -71,6 +71,7 @@ export const projects = [
     description:
       'Built a responsive multi-user communication platform with private and group messaging, real-time WebSocket delivery, persistent conversations, role-based group membership, secure file handling, JWT authentication, Docker packaging, and CI tests.',
     github: 'https://github.com/vasanth-void-0x/V--PrivateMedia',
+    image: '/projects/v-private-media.webp',
   },
   {
     id: 'threatmart',
@@ -80,6 +81,7 @@ export const projects = [
     description:
       'Developed a complete e-commerce application with product search and filtering, authentication, persistent carts, checkout, order history, inventory management, protected admin access, product CRUD, and order-status workflows.',
     github: 'https://github.com/vasanth-void-0x/void-cyber-commerce',
+    image: '/projects/threatmart.webp',
   },
   {
     id: 'agentshield',
@@ -99,6 +101,7 @@ export const projects = [
     description:
       'Engineered a multi-page React dashboard and FastAPI backend for alert ingestion, investigation timelines, API-driven enrichment, human approval workflows, automation orchestration, testing, and containerized deployment.',
     github: 'https://github.com/vasanth-void-0x/AegisFlow-SOC-Automation',
+    image: '/projects/aegisflow.webp',
   },
   {
     id: 'itrap',
@@ -148,6 +151,7 @@ export const projects = [
     description:
       'Implemented an automated CI/CD security pipeline that scans source code, secrets, dependencies, and container images, generates an SBOM, publishes security evidence, and blocks unsafe builds before deployment.',
     github: 'https://github.com/vasanth-void-0x/ChainGuard',
+    image: '/projects/chainguard.webp',
   },
 ]
 
