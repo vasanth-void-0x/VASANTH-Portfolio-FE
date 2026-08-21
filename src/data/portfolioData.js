@@ -1,101 +1,141 @@
 export const profile = {
   name: 'Vasanth',
   fullName: 'Vasanth Kumar',
-  role: 'Frontend Developer',
-  roleLine: 'React Developer · Frontend Engineer',
+  role: 'Software Developer · Frontend Developer',
+  roleLine: 'React Developer · Full-Stack Web Developer',
   phone: '+91 9786183898',
   email: 'iamvasanth2k4@gmail.com',
   github: 'https://github.com/vasanth-void-0x',
   linkedin: 'https://linkedin.com/in/vasanth-2k4',
-  portfolio: '#',
+  portfolio: 'https://github.com/vasanth-void-0x/VASANTH-Portfolio-FE',
   location: 'India',
   education: 'MCA',
-  focus: 'Frontend Development',
+  focus: 'Software & Web Development',
   status: 'Available for Work',
   intro:
-    'I build fast, responsive, component-driven interfaces with React — turning REST APIs and raw data into interfaces people actually enjoy using.',
+    'I build responsive web applications, reusable React interfaces, REST API integrations, and full-stack software with a focus on clean user experiences, reliable backend services, and secure development.',
 }
 
 export const stats = [
-  { label: 'Projects', value: 4, suffix: '+' },
+  { label: 'Projects', value: 8, suffix: '+' },
   { label: 'Experience', value: 30, suffix: 'd', note: 'internship' },
-  { label: 'Technologies', value: 15, suffix: '+' },
-  { label: 'Dedication', value: 100, suffix: '%' },
+  { label: 'Technologies', value: 20, suffix: '+' },
+  { label: 'Full-Stack Apps', value: 4, suffix: '+' },
 ]
 
 export const skillGroups = [
   {
-    title: 'Frontend',
-    items: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React.js', 'Tailwind CSS', 'Bootstrap'],
+    title: 'Frontend Development',
+    items: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React.js', 'TypeScript', 'Tailwind CSS', 'Bootstrap'],
   },
   {
-    title: 'UI & Development',
-    items: ['Responsive Web Design', 'Component-Based Development', 'DOM Manipulation'],
+    title: 'UI & Web Development',
+    items: ['Responsive Web Design', 'Component-Based Development', 'DOM Manipulation', 'REST API Integration'],
+  },
+  {
+    title: 'Backend & APIs',
+    items: ['Node.js', 'Express.js', 'FastAPI', 'WebSockets', 'SQLAlchemy', 'SQLite', 'MongoDB'],
   },
   {
     title: 'Programming',
-    items: ['JavaScript', 'Java (Basic)', 'Python (Basic)'],
+    items: ['JavaScript', 'TypeScript', 'Python', 'Bash Scripting'],
   },
   {
-    title: 'Backend (Basic)',
-    items: ['Node.js', 'Express.js', 'MongoDB'],
+    title: 'Cloud, AI & Automation',
+    items: ['Cloudflare Workers', 'Vercel', 'Render', 'Groq API', 'LLM Integration', 'n8n Workflow Automation'],
   },
   {
-    title: 'AI & Automation',
-    items: ['REST API Integration', 'LLM Integration', 'n8n Workflow Automation'],
-  },
-  {
-    title: 'Tools',
-    items: ['Git', 'GitHub', 'VS Code', 'Chrome DevTools', 'Postman', 'npm', 'Vite'],
+    title: 'Developer Tools',
+    items: ['Git', 'GitHub', 'GitHub Actions', 'VS Code', 'Chrome DevTools', 'Postman', 'npm', 'Vite', 'Docker'],
   },
 ]
 
 export const coreCompetencies = [
+  'Software Development',
   'Frontend Development',
   'Responsive Web Design',
-  'UI Development',
-  'API Integration',
+  'Reusable React Components',
+  'REST API Integration',
+  'Full-Stack Web Development',
   'Deployment & Hosting',
-  'Version Control (Git)',
+  'Version Control & CI/CD',
   'Debugging & Troubleshooting',
 ]
 
 export const projects = [
   {
+    id: 'private-media',
+    name: 'V-PrivateMedia',
+    tagline: 'Full-Stack Private Messaging & File-Sharing Platform',
+    tech: ['React', 'FastAPI', 'WebSockets', 'SQLAlchemy', 'SQLite', 'JWT', 'Docker', 'GitHub Actions'],
+    description:
+      'Built a responsive multi-user communication platform with private and group messaging, real-time WebSocket delivery, persistent conversations, role-based group membership, secure file handling, JWT authentication, Docker packaging, and CI tests.',
+    github: 'https://github.com/vasanth-void-0x/V--PrivateMedia',
+  },
+  {
     id: 'threatmart',
-    name: 'ThreatMart',
-    tagline: 'Cybersecurity & IoT Tools Marketplace',
-    tech: ['React.js', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'REST API', 'n8n', 'LLM'],
+    name: 'ThreatMart — VOID Cyberstore',
+    tagline: 'Full-Stack E-Commerce Web Application',
+    tech: ['JavaScript', 'Node.js', 'Express.js', 'SQLite', 'JWT', 'REST API', 'HTML5', 'CSS3'],
     description:
-      'A full-stack marketplace with secure authentication, product catalog, shopping cart, checkout, order tracking, and an admin dashboard for managing products, users, inventory, and orders.',
-    link: '#',
+      'Developed a complete e-commerce application with product search and filtering, authentication, persistent carts, checkout, order history, inventory management, protected admin access, product CRUD, and order-status workflows.',
+    github: 'https://github.com/vasanth-void-0x/void-cyber-commerce',
   },
   {
-    id: 'threat-hunting-dashboard',
-    name: 'Threat Hunting Dashboard',
-    tagline: 'IOC Enrichment & MITRE ATT&CK Mapping',
-    tech: ['Python', 'Flask', 'VirusTotal API', 'MITRE ATT&CK', 'GeoIP'],
+    id: 'agentshield',
+    name: 'AgentShield',
+    tagline: 'Next.js AI Security Web Application',
+    tech: ['Next.js', 'React', 'TypeScript', 'Cloudflare Workers', 'Cloudflare D1', 'Drizzle ORM', 'Groq API'],
     description:
-      'A dashboard for IOC enrichment, MITRE ATT&CK mapping, and security event visualization for faster threat triage.',
-    link: '#',
+      'Created and deployed a full-stack web application with interactive dashboards, prompt testing, approval workflows, audit views, API validation, role-based permissions, rate limiting, automated tests, and an edge-hosted database.',
+    github: 'https://github.com/vasanth-void-0x/AgentShield---AI-Gateway',
+    live: 'https://agent-shield.iamvasanth2k4.workers.dev/',
   },
   {
-    id: 'soc-lab',
-    name: 'SOC Incident Investigation & Alert Triage Lab',
-    tagline: 'Log Analysis & Incident Documentation',
-    tech: ['Splunk', 'Sysmon', 'Windows Event Logs', 'Kali Linux'],
+    id: 'aegisflow',
+    name: 'AegisFlow',
+    tagline: 'React & FastAPI Investigation Workflow Platform',
+    tech: ['React', 'TypeScript', 'Vite', 'FastAPI', 'REST API', 'SQLAlchemy', 'n8n', 'Docker'],
     description:
-      'SOC alert investigation and log analysis using Splunk and Sysmon, with incidents documented against MITRE ATT&CK mapping.',
-    link: '#',
+      'Engineered a multi-page React dashboard and FastAPI backend for alert ingestion, investigation timelines, API-driven enrichment, human approval workflows, automation orchestration, testing, and containerized deployment.',
+    github: 'https://github.com/vasanth-void-0x/AegisFlow-SOC-Automation',
   },
   {
-    id: 'phishing-lab',
-    name: 'Enterprise Phishing Email Triage Lab',
-    tagline: 'Email Header Analysis & IOC Extraction',
-    tech: ['Python', 'VirusTotal', 'Email Header Analysis'],
+    id: 'itrap',
+    name: 'iTRAP',
+    tagline: 'Data-Driven Streamlit Dashboard Application',
+    tech: ['Python', 'Streamlit', 'SQLite', 'Plotly', 'REST APIs', 'PDF Reporting'],
     description:
-      'A phishing email analysis lab to identify malicious indicators, extract IOCs, and classify phishing attempts.',
-    link: '#',
+      'Built and deployed an interactive dashboard application with multi-page navigation, data filtering, live and sample data modes, visual analytics, risk scoring, searchable incident workflows, and downloadable reports.',
+    github: 'https://github.com/vasanth-void-0x/Identity-Threat-Response-Automation-Platform',
+    live: 'https://itrap-soc-center.streamlit.app/',
+  },
+  {
+    id: 'dfir-copilot',
+    name: 'DFIR Copilot',
+    tagline: 'Python Desktop Software & Reporting Workbench',
+    tech: ['Python', 'PySide6', 'SQLite', 'YARA-X', 'Groq API', 'PDF', 'HTML'],
+    description:
+      'Developed a local-first desktop application with case management, file processing, integrity verification, structured artifact analysis, searchable timelines, AI-assisted workflows, automated tests, and PDF/HTML/JSON exports.',
+    github: 'https://github.com/vasanth-void-0x/DFIR-Copilot',
+  },
+  {
+    id: 'ragexploit',
+    name: 'RAGExploit',
+    tagline: 'Modular Python CLI Security Scanner',
+    tech: ['Python', 'CLI', 'REST APIs', 'RAG', 'LLM Security', 'JSON Reporting'],
+    description:
+      'Designed a modular command-line application with structured scan workflows, target configuration, reusable testing modules, severity-based findings, remediation output, and extensible reporting for AI and retrieval applications.',
+    github: 'https://github.com/vasanth-void-0x/RAGExploit',
+  },
+  {
+    id: 'chainguard',
+    name: 'ChainGuard',
+    tagline: 'Automated DevSecOps CI/CD Pipeline',
+    tech: ['GitHub Actions', 'Docker', 'Python', 'Gitleaks', 'Semgrep', 'Trivy', 'Syft'],
+    description:
+      'Implemented an automated CI/CD security pipeline that scans source code, secrets, dependencies, and container images, generates an SBOM, publishes security evidence, and blocks unsafe builds before deployment.',
+    github: 'https://github.com/vasanth-void-0x/ChainGuard',
   },
 ]
 
@@ -112,13 +152,13 @@ export const experience = [
     ],
   },
   {
-    role: 'Personal Project Experience',
+    role: 'Software & Web Project Development',
     org: 'Independent',
     duration: 'Ongoing',
     points: [
-      'Designed and developed ThreatMart, a full-stack e-commerce platform with authentication, product catalog, shopping cart, checkout, and admin dashboard.',
-      'Built responsive user interfaces with React.js and Tailwind CSS while integrating REST APIs using Node.js, Express.js, and MongoDB.',
-      'Implemented JWT authentication, role-based access control, and CRUD operations.',
+      'Built full-stack applications using React, Next.js, Node.js, Express, FastAPI, SQLite, WebSockets, and REST APIs.',
+      'Created responsive dashboards, e-commerce workflows, private messaging features, admin interfaces, authentication, and data-driven reporting.',
+      'Deployed applications with Cloudflare Workers, Streamlit Cloud, Docker, Vercel-compatible frontend tooling, and GitHub Actions CI.',
     ],
   },
 ]
@@ -140,6 +180,7 @@ export const strengths = [
   'Quick to Adapt to New Tools & Technologies',
   'Strong Problem-Solving Skills',
   'Responsive & User-Centric UI Development',
+  'API Integration & Full-Stack Development',
   'Bug Fixing & Troubleshooting',
   'Continuous Learning',
 ]

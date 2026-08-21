@@ -10,7 +10,7 @@ export default function Projects() {
         <SectionHeading
           eyebrow="Transmission // 03"
           title="Mission Log"
-          description="A rundown of what's been built, shipped, and shipped again."
+          description="Software, frontend, full-stack, automation, and security applications built through hands-on development."
         />
 
         <div className="grid md:grid-cols-2 gap-6">
@@ -28,7 +28,13 @@ export default function Projects() {
 
               <div className="relative flex items-start justify-between mb-3">
                 <h3 className="font-display text-xl text-core">{p.name}</h3>
-                <a href={p.link} aria-label={`Open ${p.name} on GitHub`} className="text-dim hover:text-ion transition-colors">
+                <a
+                  href={p.github}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={`Open ${p.name} on GitHub`}
+                  className="text-dim hover:text-ion transition-colors"
+                >
                   <FiGithub size={18} />
                 </a>
               </div>
@@ -43,12 +49,26 @@ export default function Projects() {
                 ))}
               </div>
 
-              <a
-                href={p.link}
-                className="relative inline-flex items-center gap-1.5 text-xs font-mono uppercase tracking-widest text-ion group-hover:gap-2.5 transition-all"
-              >
-                View Log <FiExternalLink size={13} />
-              </a>
+              <div className="relative flex flex-wrap items-center gap-5">
+                <a
+                  href={p.github}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-1.5 text-xs font-mono uppercase tracking-widest text-ion group-hover:gap-2.5 transition-all"
+                >
+                  GitHub <FiGithub size={13} />
+                </a>
+                {p.live && (
+                  <a
+                    href={p.live}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-1.5 text-xs font-mono uppercase tracking-widest text-signal hover:gap-2.5 transition-all"
+                  >
+                    Live Demo <FiExternalLink size={13} />
+                  </a>
+                )}
+              </div>
             </motion.article>
           ))}
         </div>
