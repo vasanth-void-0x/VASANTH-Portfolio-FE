@@ -63,7 +63,9 @@ export default function Navbar() {
         </ul>
 
         <a
-          href="#contact"
+          href="/Vasanth_Frontend.pdf"
+          target="_blank"
+          rel="noreferrer"
           className="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full border border-ion/40 text-ion font-mono text-xs uppercase tracking-widest hover:bg-ion/10 hover:shadow-ion transition-all"
         >
           Resume
