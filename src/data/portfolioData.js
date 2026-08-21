@@ -17,7 +17,7 @@ export const profile = {
 }
 
 export const stats = [
-  { label: 'Projects', value: 8, suffix: '+' },
+  { label: 'Projects', value: 9, suffix: '+' },
   { label: 'Experience', value: 30, suffix: 'd', note: 'internship' },
   { label: 'Technologies', value: 20, suffix: '+' },
   { label: 'Full-Stack Apps', value: 4, suffix: '+' },
@@ -127,6 +127,16 @@ export const projects = [
     description:
       'Designed a modular command-line application with structured scan workflows, target configuration, reusable testing modules, severity-based findings, remediation output, and extensible reporting for AI and retrieval applications.',
     github: 'https://github.com/vasanth-void-0x/RAGExploit',
+    image: '/projects/ragexploit.webp',
+  },
+  {
+    id: 'ai-red-team-agent',
+    name: 'AI Red Team Agent',
+    tagline: 'AI & LLM Security Red Teaming Platform',
+    tech: ['AI Security', 'LLM', 'RAG', 'MCP', 'Prompt Injection', 'Agent Security'],
+    description:
+      'Designed an AI security red teaming platform concept for testing LLM applications, RAG pipelines, agent tools, APIs, prompt-injection resistance, sensitive-data leakage, jailbreaks, and evidence-driven attack analysis.',
+    image: '/projects/ai-red-team-agent.webp',
   },
   {
     id: 'chainguard',
