@@ -91,15 +91,15 @@ export default function Skills() {
         />
 
         <div className="mb-8 grid gap-3 sm:grid-cols-3">
-          <div className="rounded-xl border border-ion/15 bg-[#080d20]/65 px-5 py-4 backdrop-blur-xl">
+          <div className="rounded-xl border border-ion/15 bg-[#080d20]/20 px-5 py-4 backdrop-blur-xl">
             <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-dim">Technology Stack</span>
             <strong className="mt-1 block font-display text-2xl text-core">{totalSkills}+</strong>
           </div>
-          <div className="rounded-xl border border-signal/15 bg-[#080d20]/65 px-5 py-4 backdrop-blur-xl">
+          <div className="rounded-xl border border-signal/15 bg-[#080d20]/20 px-5 py-4 backdrop-blur-xl">
             <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-dim">Coverage</span>
             <strong className="mt-1 block font-display text-lg text-signal">Full-Stack + AI</strong>
           </div>
-          <div className="rounded-xl border border-photon/20 bg-[#080d20]/65 px-5 py-4 backdrop-blur-xl">
+          <div className="rounded-xl border border-photon/20 bg-[#080d20]/20 px-5 py-4 backdrop-blur-xl">
             <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-dim">Evidence</span>
             <strong className="mt-1 flex items-center gap-2 font-display text-lg text-photon">
               <span className="relative flex h-2 w-2">
