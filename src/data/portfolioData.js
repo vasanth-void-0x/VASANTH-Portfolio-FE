@@ -133,6 +133,7 @@ export const projects = [
     description:
       'Designed a modular command-line application with structured scan workflows, target configuration, reusable testing modules, severity-based findings, remediation output, and extensible reporting for AI and retrieval applications.',
     github: 'https://github.com/vasanth-void-0x/RAGExploit',
+    live: 'https://rag-exploit-scanner.vercel.app/',
     image: '/projects/ragexploit.webp',
   },
   {
