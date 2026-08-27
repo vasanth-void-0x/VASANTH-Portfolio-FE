@@ -64,6 +64,17 @@ export const coreCompetencies = [
 
 export const projects = [
   {
+    id: 'aegisflow',
+    name: 'AegisFlow',
+    tagline: 'Live Full-Stack SOC Automation Platform',
+    tech: ['React', 'TypeScript', 'FastAPI', 'Groq API', 'MCP', 'RAG', 'n8n', 'Vercel'],
+    description:
+      'Built and deployed a full-stack SOC platform with alert ingestion, threat-intelligence enrichment, AI triage, RAG-assisted investigation, MCP security tools, human approval workflows, simulated response, automated tests, and a modern live command center.',
+    github: 'https://github.com/vasanth-void-0x/AegisFlow-SOC-Automation',
+    live: 'https://aegisflow-soc-automation.vercel.app/',
+    image: '/projects/aegisflow.webp',
+  },
+  {
     id: 'private-media',
     name: 'V-PrivateMedia',
     tagline: 'Full-Stack Private Messaging & File-Sharing Platform',
@@ -92,16 +103,6 @@ export const projects = [
       'Created and deployed a full-stack web application with interactive dashboards, prompt testing, approval workflows, audit views, API validation, role-based permissions, rate limiting, automated tests, and an edge-hosted database.',
     github: 'https://github.com/vasanth-void-0x/AgentShield---AI-Gateway',
     live: 'https://agent-shield.iamvasanth2k4.workers.dev/',
-  },
-  {
-    id: 'aegisflow',
-    name: 'AegisFlow',
-    tagline: 'React & FastAPI Investigation Workflow Platform',
-    tech: ['React', 'TypeScript', 'Vite', 'FastAPI', 'REST API', 'SQLAlchemy', 'n8n', 'Docker'],
-    description:
-      'Engineered a multi-page React dashboard and FastAPI backend for alert ingestion, investigation timelines, API-driven enrichment, human approval workflows, automation orchestration, testing, and containerized deployment.',
-    github: 'https://github.com/vasanth-void-0x/AegisFlow-SOC-Automation',
-    image: '/projects/aegisflow.webp',
   },
   {
     id: 'itrap',
