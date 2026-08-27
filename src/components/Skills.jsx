@@ -32,13 +32,11 @@ import {
   SiPostman,
   SiPython,
   SiReact,
-  SiRender,
   SiSqlite,
   SiTailwindcss,
   SiTypescript,
   SiVercel,
   SiVite,
-  SiVisualstudiocode,
 } from 'react-icons/si'
 import { skillGroups } from '../data/portfolioData'
 import SectionHeading from './SectionHeading'
@@ -66,12 +64,12 @@ const skillIcons = {
   'GitHub Actions': SiGithubactions,
   Docker: SiDocker,
   Vercel: SiVercel,
-  Render: SiRender,
+  Render: FiCloud,
   'Cloudflare Workers': SiCloudflare,
   Vite: SiVite,
   npm: SiNpm,
   Postman: SiPostman,
-  'VS Code': SiVisualstudiocode,
+  'VS Code': FiCode,
   'REST APIs': FiGlobe,
   WebSockets: FiActivity,
   JWT: FiBox,
