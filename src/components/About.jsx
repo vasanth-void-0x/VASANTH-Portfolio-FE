@@ -21,7 +21,7 @@ export default function About() {
             className="glass rounded-2xl p-8"
           >
             <h3 className="font-display text-lg text-ion mb-4 tracking-widest uppercase">Profile</h3>
-            <p className="text-dim leading-relaxed mb-6">
+            <p className="mb-6 text-[15px] leading-7 text-core/82">
               Passionate {profile.role} skilled in HTML, CSS, JavaScript, and React, with hands-on
               project experience and a Full Stack Development internship. Eager to contribute, learn
               quickly, and build high-quality user experiences in a collaborative team.
@@ -30,7 +30,7 @@ export default function About() {
               {coreCompetencies.map((c) => (
                 <span
                   key={c}
-                  className="px-3 py-1 rounded-full border border-photon/30 text-[11px] font-mono text-photon"
+                  className="rounded-full border border-ion/35 bg-ion/[0.07] px-3 py-1.5 font-mono text-[11px] text-ion shadow-[0_0_14px_rgba(0,229,255,0.06)] transition-colors hover:border-photon/55 hover:bg-photon/[0.09] hover:text-[#c9a8ff]"
                 >
                   {c}
                 </span>
@@ -48,8 +48,8 @@ export default function About() {
             <h3 className="font-display text-lg text-ion mb-4 tracking-widest uppercase">Strengths</h3>
             <ul className="space-y-3">
               {strengths.map((s) => (
-                <li key={s} className="flex items-start gap-3 text-dim">
-                  <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-ion shadow-ion shrink-0" />
+                <li key={s} className="flex items-start gap-3 text-[15px] leading-6 text-core/78">
+                  <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-ion shadow-[0_0_10px_rgba(0,229,255,0.85)]" />
                   {s}
                 </li>
               ))}
