@@ -75,14 +75,15 @@ export const projects = [
     image: '/projects/aegisflow.webp',
   },
   {
-    id: 'private-media',
-    name: 'V-PrivateMedia',
-    tagline: 'Full-Stack Private Messaging & File-Sharing Platform',
-    tech: ['React', 'FastAPI', 'WebSockets', 'SQLAlchemy', 'SQLite', 'JWT', 'Docker', 'GitHub Actions'],
+    id: 'ragexploit',
+    name: 'RAGExploit',
+    tagline: 'Modular Python CLI Security Scanner',
+    tech: ['Python', 'CLI', 'REST APIs', 'RAG', 'LLM Security', 'JSON Reporting'],
     description:
-      'Built a responsive multi-user communication platform with private and group messaging, real-time WebSocket delivery, persistent conversations, role-based group membership, secure file handling, JWT authentication, Docker packaging, and CI tests.',
-    github: 'https://github.com/vasanth-void-0x/V--PrivateMedia',
-    image: '/projects/v-private-media.webp',
+      'Designed a modular command-line application with structured scan workflows, target configuration, reusable testing modules, severity-based findings, remediation output, and extensible reporting for AI and retrieval applications.',
+    github: 'https://github.com/vasanth-void-0x/RAGExploit',
+    live: 'https://rag-exploit-scanner.vercel.app/',
+    image: '/projects/ragexploit.webp',
   },
   {
     id: 'threatmart',
@@ -92,6 +93,7 @@ export const projects = [
     description:
       'Developed a complete e-commerce application with product search and filtering, authentication, persistent carts, checkout, order history, inventory management, protected admin access, product CRUD, and order-status workflows.',
     github: 'https://github.com/vasanth-void-0x/void-cyber-commerce',
+    live: 'https://void-cyber-commerce.vercel.app/',
     image: '/projects/threatmart.webp',
   },
   {
@@ -105,15 +107,14 @@ export const projects = [
     live: 'https://agent-shield.iamvasanth2k4.workers.dev/',
   },
   {
-    id: 'ragexploit',
-    name: 'RAGExploit',
-    tagline: 'Modular Python CLI Security Scanner',
-    tech: ['Python', 'CLI', 'REST APIs', 'RAG', 'LLM Security', 'JSON Reporting'],
+    id: 'private-media',
+    name: 'V-PrivateMedia',
+    tagline: 'Full-Stack Private Messaging & File-Sharing Platform',
+    tech: ['React', 'FastAPI', 'WebSockets', 'SQLAlchemy', 'SQLite', 'JWT', 'Docker', 'GitHub Actions'],
     description:
-      'Designed a modular command-line application with structured scan workflows, target configuration, reusable testing modules, severity-based findings, remediation output, and extensible reporting for AI and retrieval applications.',
-    github: 'https://github.com/vasanth-void-0x/RAGExploit',
-    live: 'https://rag-exploit-scanner.vercel.app/',
-    image: '/projects/ragexploit.webp',
+      'Built a responsive multi-user communication platform with private and group messaging, real-time WebSocket delivery, persistent conversations, role-based group membership, secure file handling, JWT authentication, Docker packaging, and CI tests.',
+    github: 'https://github.com/vasanth-void-0x/V--PrivateMedia',
+    image: '/projects/v-private-media.webp',
   },
   {
     id: 'itrap',
