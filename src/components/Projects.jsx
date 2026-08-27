@@ -118,6 +118,10 @@ export default function Projects() {
                         rel="noreferrer"
                         className="inline-flex items-center gap-1.5 text-xs font-mono uppercase tracking-widest text-signal hover:gap-2.5 transition-all"
                       >
+                        <span className="relative flex h-2 w-2" aria-hidden="true">
+                          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-signal opacity-70" />
+                          <span className="relative inline-flex h-2 w-2 rounded-full bg-signal" />
+                        </span>
                         Live Demo <FiExternalLink size={13} />
                       </a>
                     )}
