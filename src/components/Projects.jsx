@@ -67,7 +67,7 @@ export default function Projects() {
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.6, delay: (i % 2) * 0.12 }}
               whileHover={{ y: -8 }}
-              className="group relative rounded-2xl overflow-hidden border border-white/10 bg-[#080d20]/50 shadow-[0_20px_60px_rgba(0,0,0,0.28)] backdrop-blur-xl transition-colors duration-500 hover:border-ion/30"
+              className="group relative rounded-2xl overflow-hidden border border-white/10 bg-[#080d20]/35 shadow-[0_20px_60px_rgba(0,0,0,0.28)] backdrop-blur-xl transition-colors duration-500 hover:border-ion/30"
             >
               <ProjectPreview project={p} />
 
