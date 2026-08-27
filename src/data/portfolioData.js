@@ -25,28 +25,28 @@ export const stats = [
 
 export const skillGroups = [
   {
-    title: 'Frontend Development',
-    items: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React.js', 'TypeScript', 'Tailwind CSS', 'Bootstrap'],
-  },
-  {
-    title: 'UI & Web Development',
-    items: ['Responsive Web Design', 'Component-Based Development', 'DOM Manipulation', 'REST API Integration'],
+    title: 'Frontend Engineering',
+    items: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React.js', 'TypeScript', 'Tailwind CSS', 'Responsive UI'],
   },
   {
     title: 'Backend & APIs',
-    items: ['Node.js', 'Express.js', 'FastAPI', 'WebSockets', 'SQLAlchemy', 'SQLite', 'MongoDB'],
+    items: ['Node.js', 'Express.js', 'FastAPI', 'REST APIs', 'WebSockets', 'JWT', 'SQLite'],
   },
   {
-    title: 'Programming',
-    items: ['JavaScript', 'TypeScript', 'Python', 'Bash Scripting'],
+    title: 'AI & Agentic Systems',
+    items: ['LLM Integration', 'RAG', 'MCP', 'Groq API', 'Prompt Engineering', 'Agentic AI'],
   },
   {
-    title: 'Cloud, AI & Automation',
-    items: ['Cloudflare Workers', 'Vercel', 'Render', 'Groq API', 'LLM Integration', 'n8n Workflow Automation'],
+    title: 'Automation & Cloud',
+    items: ['n8n', 'Vercel', 'Cloudflare Workers', 'GitHub Actions', 'Docker', 'Render'],
   },
   {
-    title: 'Developer Tools',
-    items: ['Git', 'GitHub', 'GitHub Actions', 'VS Code', 'Chrome DevTools', 'Postman', 'npm', 'Vite', 'Docker'],
+    title: 'Programming & Data',
+    items: ['Python', 'JavaScript', 'TypeScript', 'SQL', 'SQLite', 'MongoDB', 'JSON'],
+  },
+  {
+    title: 'Developer Workflow',
+    items: ['Git', 'GitHub', 'Vite', 'npm', 'Postman', 'VS Code', 'Chrome DevTools'],
   },
 ]
 
