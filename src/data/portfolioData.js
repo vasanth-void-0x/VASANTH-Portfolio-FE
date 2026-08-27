@@ -105,6 +105,17 @@ export const projects = [
     live: 'https://agent-shield.iamvasanth2k4.workers.dev/',
   },
   {
+    id: 'ragexploit',
+    name: 'RAGExploit',
+    tagline: 'Modular Python CLI Security Scanner',
+    tech: ['Python', 'CLI', 'REST APIs', 'RAG', 'LLM Security', 'JSON Reporting'],
+    description:
+      'Designed a modular command-line application with structured scan workflows, target configuration, reusable testing modules, severity-based findings, remediation output, and extensible reporting for AI and retrieval applications.',
+    github: 'https://github.com/vasanth-void-0x/RAGExploit',
+    live: 'https://rag-exploit-scanner.vercel.app/',
+    image: '/projects/ragexploit.webp',
+  },
+  {
     id: 'itrap',
     name: 'iTRAP',
     tagline: 'Data-Driven Streamlit Dashboard Application',
@@ -126,15 +137,14 @@ export const projects = [
     image: '/projects/dfir-copilot.png',
   },
   {
-    id: 'ragexploit',
-    name: 'RAGExploit',
-    tagline: 'Modular Python CLI Security Scanner',
-    tech: ['Python', 'CLI', 'REST APIs', 'RAG', 'LLM Security', 'JSON Reporting'],
+    id: 'chainguard',
+    name: 'ChainGuard',
+    tagline: 'Automated DevSecOps CI/CD Pipeline',
+    tech: ['GitHub Actions', 'Docker', 'Python', 'Gitleaks', 'Semgrep', 'Trivy', 'Syft'],
     description:
-      'Designed a modular command-line application with structured scan workflows, target configuration, reusable testing modules, severity-based findings, remediation output, and extensible reporting for AI and retrieval applications.',
-    github: 'https://github.com/vasanth-void-0x/RAGExploit',
-    live: 'https://rag-exploit-scanner.vercel.app/',
-    image: '/projects/ragexploit.webp',
+      'Implemented an automated CI/CD security pipeline that scans source code, secrets, dependencies, and container images, generates an SBOM, publishes security evidence, and blocks unsafe builds before deployment.',
+    github: 'https://github.com/vasanth-void-0x/ChainGuard',
+    image: '/projects/chainguard.webp',
   },
   {
     id: 'ai-red-team-agent',
@@ -145,16 +155,7 @@ export const projects = [
       'Designed an AI security red teaming platform concept for testing LLM applications, RAG pipelines, agent tools, APIs, prompt-injection resistance, sensitive-data leakage, jailbreaks, and evidence-driven attack analysis.',
     image: '/projects/ai-red-team-agent.webp',
   },
-  {
-    id: 'chainguard',
-    name: 'ChainGuard',
-    tagline: 'Automated DevSecOps CI/CD Pipeline',
-    tech: ['GitHub Actions', 'Docker', 'Python', 'Gitleaks', 'Semgrep', 'Trivy', 'Syft'],
-    description:
-      'Implemented an automated CI/CD security pipeline that scans source code, secrets, dependencies, and container images, generates an SBOM, publishes security evidence, and blocks unsafe builds before deployment.',
-    github: 'https://github.com/vasanth-void-0x/ChainGuard',
-    image: '/projects/chainguard.webp',
-  },
+
 ]
 
 export const experience = [
