@@ -126,7 +126,7 @@ export default function Skills() {
                 key={group.title}
                 variants={card}
                 whileHover={{ y: -5 }}
-                className="group relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-[#0b1127]/50 via-[#080d20]/50 to-[#060a18]/50 p-6 shadow-[0_20px_60px_rgba(0,0,0,0.22)] backdrop-blur-xl transition-colors duration-300 hover:border-ion/35"
+                className="group relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-[#0b1127]/20 via-[#080d20]/20 to-[#060a18]/20 p-6 shadow-[0_20px_60px_rgba(0,0,0,0.22)] backdrop-blur-xl transition-colors duration-300 hover:border-ion/35"
               >
                 <div className="absolute right-0 top-0 h-28 w-28 rounded-full bg-ion/[0.06] blur-3xl transition-colors group-hover:bg-photon/[0.1]" />
                 <div className="relative flex items-start justify-between gap-4">
