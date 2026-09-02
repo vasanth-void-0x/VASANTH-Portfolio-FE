@@ -64,14 +64,14 @@ export const coreCompetencies = [
 
 export const projects = [
   {
-    id: 'aegisflow',
-    name: 'AegisFlow',
-    tagline: 'Live Full-Stack SOC Automation Platform',
-    tech: ['React', 'TypeScript', 'FastAPI', 'Groq API', 'MCP', 'RAG', 'n8n', 'Vercel'],
+    id: 'blueorch',
+    name: 'BlueOrch',
+    tagline: 'MVP Complete · AI-Powered SOC Automation',
+    tech: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'Groq AI', 'MCP', 'RAG', 'n8n V3.1', 'Vercel'],
     description:
-      'Built and deployed a full-stack SOC platform with alert ingestion, threat-intelligence enrichment, AI triage, RAG-assisted investigation, MCP security tools, human approval workflows, simulated response, automated tests, and a modern live command center.',
-    github: 'https://github.com/vasanth-void-0x/AegisFlow-SOC-Automation',
-    live: 'https://aegisflow-soc-automation.vercel.app/',
+      'Built and deployed an end-to-end SOC automation MVP covering telemetry ingestion, AI and RAG-assisted investigation, seven allowlisted and audited MCP tools, Admin/Analyst/Viewer RBAC, human approval for high-risk actions, safe simulated response, immutable audit history, Windows collector health, and 131 backend tests. Production pilot hardening is the next phase.',
+    github: 'https://github.com/vasanth-void-0x/BlueOrch-SOC-Automation',
+    live: 'https://blueorch-soc-automation.vercel.app/',
     image: '/projects/aegisflow.webp',
   },
   {
